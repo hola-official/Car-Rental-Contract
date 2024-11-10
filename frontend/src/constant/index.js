@@ -14,42 +14,42 @@ export const vehicles = [
   {
     name: "Tesla Model 3",
     type: "Electric",
-    price: "0.1 ETH/day",
+    price: "0.1",
     image:
       "https://images.unsplash.com/photo-1560958089-b8a1929cea89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
   },
   {
     name: "BMW i3",
     type: "Electric",
-    price: "0.08 ETH/day",
+    price: "0.08",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/9/98/2018_BMW_i3_facelift_%281%29.jpg",
   },
   {
     name: "Audi e-tron",
     type: "Electric SUV",
-    price: "0.15 ETH/day",
+    price: "0.15",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/d/d5/2020_Audi_e-Tron_Sport_50_Quattro.jpg",
   },
   {
     name: "Porsche Taycan",
     type: "Electric Sports",
-    price: "0.2 ETH/day",
+    price: "0.2",
     image:
       "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
   },
   {
     name: "Rivian R1T",
     type: "Electric Truck",
-    price: "0.18 ETH/day",
+    price: "0.18",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/e/e1/2022_Rivian_R1T_%28in_Glacier_White%29%2C_front_6.21.22.jpg",
   },
   {
     name: "Volkswagen ID.4",
     type: "Electric SUV",
-    price: "0.12 ETH/day",
+    price: "0.12",
     image:
       "https://images.unsplash.com/photo-1617469767053-d3b523a0b982?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
   },
