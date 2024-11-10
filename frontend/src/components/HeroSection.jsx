@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Button } from "./ui";
 import CarRent from "../assets/BlockchainIlus.png";
+import BounceCar from "../assets/teslacar.webp";
 
 export function HeroSection() {
   return (
@@ -55,21 +56,22 @@ export function HeroSection() {
               alt="Decentralized Car Sharing"
               className="w-full h-[480px] rounded-lg shadow-2xl"
             />
-              <motion.img
-                initial={{ opacity: 0, y: 50 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.6 }}
-                src={CarRent}
-                className="absolute -bottom-10 -left-10 w-48 h-48 object-contain"
-              />
             <motion.div
               initial={{ opacity: 0, scale: 0.8, rotate: 0 }}
               animate={{ opacity: 1, scale: 1, rotate: 12 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="absolute -bottom-6 right-0 w-32 h-32 bg-blue-600 rounded-full flex items-center justify-center text-white text-center font-bold text-xl transform"
+              className="absolute -bottom-6 right-0 w-32 h-32 bg-blue-600 rounded-full flex items-center justify-center text-white text-center animate-bounce transition-all duration-300 font-bold text-xl transform"
             >
               Web3 Powered
             </motion.div>
+            
+            <motion.img
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.6 }}
+              src={CarRent}
+              className="absolute transition-all duration-1000 animate-bounce -bottom-10 -left-10 w-48 h-48 object-contain"
+            />
           </motion.div>
         </div>
       </div>
