@@ -134,3 +134,11 @@ export const reasons = [
   "DAO-powered governance and dispute resolution",
   "Community-driven platform development",
 ];
+
+ export const verificationSteps = [
+   "Fill out the application form with your professional details",
+   "Submit proof of identity and vehicle ownership documents",
+   "Complete vehicle inspection checklist and documentation",
+   "Pass our platform's vehicle safety assessment",
+   "Schedule verification meeting with our team",
+ ];

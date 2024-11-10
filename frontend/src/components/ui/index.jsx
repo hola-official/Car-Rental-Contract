@@ -1,4 +1,5 @@
-import { motion } from "framer-motion";
+import { motion, useAnimation, useInView } from "framer-motion";
+import { useEffect } from "react";
 
 const cn = (...classes) => classes.filter(Boolean).join(" ");
 
