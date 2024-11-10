@@ -53,7 +53,7 @@ export function HeroSection() {
             <img
               src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80"
               alt="Decentralized Car Sharing"
-              className="w-full h-auto rounded-lg shadow-2xl"
+              className="w-full h-[480px] rounded-lg shadow-2xl"
             />
               <motion.img
                 initial={{ opacity: 0, y: 50 }}
