@@ -16,7 +16,7 @@ export function Footer() {
             whileHover={{ scale: 1.05 }}
           >
             <Car className="h-6 w-6 text-blue-600" />
-            <span className="text-xl font-bold text-gray-800 dark:text-white">
+            <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-400">
               DeCarShare
             </span>
           </motion.a>
@@ -26,14 +26,14 @@ export function Footer() {
               className="text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400"
               whileHover={{ scale: 1.1 }}
             >
-              <Twitter className="h-6 w-6" />
+              <Github className="h-6 w-6" />
             </motion.a>
             <motion.a
               href="#"
               className="text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400"
               whileHover={{ scale: 1.1 }}
             >
-              <Github className="h-6 w-6" />
+              <Twitter className="h-6 w-6" />
             </motion.a>
           </div>
         </div>

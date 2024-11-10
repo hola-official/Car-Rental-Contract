@@ -54,24 +54,23 @@ export function HeroSection() {
             <img
               src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80"
               alt="Decentralized Car Sharing"
-              className="w-full h-[480px] rounded-lg shadow-2xl"
+              className="w-full h-[520px] rounded-lg shadow-2xl"
             />
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8, rotate: 0 }}
-              animate={{ opacity: 1, scale: 1, rotate: 12 }}
-              transition={{ duration: 0.8, delay: 0.4 }}
-              className="absolute -bottom-6 right-0 w-32 h-32 bg-blue-600 rounded-full flex items-center justify-center text-white text-center animate-bounce transition-all duration-300 font-bold text-xl transform"
-            >
-              Web3 Powered
-            </motion.div>
-            
             <motion.img
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
               src={CarRent}
-              className="absolute transition-all duration-1000 animate-bounce -bottom-10 -left-10 w-48 h-48 object-contain"
+              className="absolute transition-all duration-1000 animate-spin-slow -bottom-10 -left-10 w-48 h-48 object-contain"
             />
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8, rotate: 0 }}
+              animate={{ opacity: 1, scale: 1, rotate: 12 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="absolute -bottom-6 right-0 w-32 h-32 bg-blue-600 rounded-full flex items-center justify-center text-white text-center animate-spin-bounce font-bold text-xl transform"
+            >
+              Web3 Powered
+            </motion.div>
           </motion.div>
         </div>
       </div>
