@@ -5,6 +5,7 @@ import { HowItWorksSection } from "../components/HowItWorksSection";
 import { FeaturesSection } from "../components/FeaturesSection";
 import { FeaturedVehiclesSection } from "../components/FeaturedVehiclesSection";
 import { WhyChooseUsSection } from "../components/WhyChooseUsSection";
+import { VerificationSection } from "../components/VerificationSection";
 import { Footer } from "../components/Footer";
 
 export default function LandingPage() {
@@ -17,6 +18,7 @@ export default function LandingPage() {
         <FeaturesSection />
         <FeaturedVehiclesSection />
         <WhyChooseUsSection />
+        <VerificationSection />
       </main>
       <Footer />
     </div>
