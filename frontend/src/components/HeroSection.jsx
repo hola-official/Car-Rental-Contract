@@ -6,7 +6,7 @@ import BounceCar from "../assets/teslacar.webp";
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden py-16 md:py-24 lg:py-32">
+    <section className="relative overflow-hidden py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1 space-y-6 text-center md:text-left">
@@ -54,7 +54,7 @@ export function HeroSection() {
             <img
               src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80"
               alt="Decentralized Car Sharing"
-              className="w-full h-[520px] rounded-lg shadow-2xl"
+              className="w-full h-[380px] rounded-lg shadow-2xl"
             />
             <motion.img
               initial={{ opacity: 0, y: 50 }}
